@@ -2,6 +2,9 @@ package com.dvdat.generics;
 
 public class Main {
     // TODO
+    // Implement generics type
+    // Ref: PersonAgeComparator
+
     // Interface
 
     // Class
