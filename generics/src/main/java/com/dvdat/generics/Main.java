@@ -1,38 +1,70 @@
 package com.dvdat.generics;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class Main {
-    // TODO
-    // Implement generics type
-    // Ref: PersonAgeComparator
 
-    // Interface
+    public static void main(String[] args) {
+        ArrayList<Person> persons = new ArrayList<>();
+        persons.add(new Person("Dat Do", 35));
+        persons.add(new Person("Phung Nguyen", 34));
+        persons.add(new Person("Ngoc Do", 2));
 
-    // Class
+        persons.forEach(person -> {
+            System.out.println(person);
+        });
 
-    // Method
+        printSeperator();
+        // TODO
+        // Implement generics type
+        // Ref: PersonAgeComparator
+        Collections.sort(persons, new PersonAgeComparator());
+        persons.forEach(person -> {
+            System.out.println(person);
+        });
 
-    // Type inference
+        // Passing a parameter to a generic class
+        // Ref: ReverseComparator class
+        printSeperator();
+        Collections.sort(persons, new ReverseComparator<>(new PersonAgeComparator()));
+        persons.forEach(person -> {
+            System.out.println(person);
+        });
 
-    // Wildcard
-    //  - Upper
-    //  - Lower
-    //  - Unbounded
+        // Interface
 
-    // Bounded type
-    //  - Single
-    //  - Multiple
+        // Class
 
-    // Substitution
+        // Method
 
-    // Covariant
+        // Type inference
 
-    // Contravariant
+        // Wildcard
+        //  - Upper
+        //  - Lower
+        //  - Unbounded
 
-    // Raw type
+        // Bounded type
+        //  - Single
+        //  - Multiple
 
-    // Reflection
+        // Substitution
 
-    // Factional interface
+        // Covariant
 
-    // Intersection type
+        // Contravariant
+
+        // Raw type
+
+        // Reflection
+
+        // Factional interface
+
+        // Intersection type
+    }
+
+    private static void printSeperator(){
+        System.out.println("---------------------------------------");
+    }
 }
