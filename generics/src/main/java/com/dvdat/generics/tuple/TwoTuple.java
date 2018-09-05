@@ -1,4 +1,4 @@
-package com.dvdat.generics;
+package com.dvdat.generics.tuple;
 
 public class TwoTuple<A, B> {
     public final A first;

@@ -1,4 +1,4 @@
-package com.dvdat.generics;
+package com.dvdat.generics.tuple;
 
 public class FourTuple<A, B, C, D> extends ThreeTuple<A, B, C> {
     public final D four;

@@ -1,4 +1,4 @@
-package com.dvdat.generics;
+package com.dvdat.generics.tuple;
 
 public class SixTuple<A, B, C, D, E, F> extends FiveTuple<A, B, C, D, E> {
     public final F six;
