@@ -32,9 +32,16 @@ public class Main {
             System.out.println(person);
         });
 
+        // Raw type
+        // Warning: unchecked call/invocation
+        Box rawBox = new Box(100);
+        rawBox.setItem(10);
+
         // Interface
 
         // Class
+        //  - To ensure type safe at compile time instead of Runtime error
+        // Ref: Box
 
         // Method
 
