@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/generics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/generics_main.iml" group="generics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/generics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/generics_test.iml" group="generics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java8.iml" filepath="$PROJECT_DIR$/.idea/java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/jmh-test/jmh-test.iml" filepath="$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/jmh-test/jmh-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/saga-lib/saga-lib.iml" filepath="$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/saga-lib/saga-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/saga-lib-guice/saga-lib-guice.iml" filepath="$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/saga-lib-guice/saga-lib-guice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/saga-lib-root.iml" filepath="$PROJECT_DIR$/../../fintrix/SourceCode/saga-lib/saga-lib-root.iml" />
     </modules>
   </component>
 </project>
