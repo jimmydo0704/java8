@@ -50,7 +50,7 @@ public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {
             System.out.println(gen.next());
         }
 
-        // TODO - Why? What supports it?
+        // Why? What supports it?
         // ==>
         // CoffeeGenerator implements Iterable interface, so it can be use in foreach statement.
         // However, it requires an "end sentinel" to know when to stop and this produces using the
