@@ -14,5 +14,6 @@ public class GenericMethods {
         var.f("String");
         var.f(10);
         var.f(100D);
+        var.f('c');
     }
 }
