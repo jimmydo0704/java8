@@ -15,7 +15,7 @@ public class Box<T> {
         item = t;
     }
 }
-
+//
 // This is original way. It's using Object class to store object. Then, it has
 // no idea of what is actual type and it can lead to the problem that programmner
 // can be mistaken to pass in one type then cast to other type and it's causing
